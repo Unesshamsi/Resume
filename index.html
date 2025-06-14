@@ -31,12 +31,12 @@
             color: #fff;
             padding: 1rem;
             text-decoration: none;
-            text-transform: uppercase;
             flex: 1 1 auto;
             text-align: center;
         }
         nav a:hover {
             background-color: #70baff;
+            text-transform: uppercase;
             color: #000000;
         }
         section {
@@ -46,6 +46,12 @@
             max-width: 62.5rem; /* 1000px */
             margin: auto;
             overflow: hidden;
+        }
+        .hover-reveal .content {
+            display: none;
+        }
+        .hover-reveal:hover .content {
+            display: block;
         }
         footer {
             background-color: #138cfc;
@@ -89,16 +95,20 @@
         <a href="#contact">Contact</a>
     </nav>
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
+    <div class="container hover-reveal">
+        <h2>About Me</h2>
+        <div class="content">
             <p>
                 Hello! I am Mohd. Unes Shamsi, a finance enthusiast with a strong foundation in equity research and business administration. Having completed my Bachelor's degree from the Indian Institute of Management Rohtak, I have gained practical experience through various internships and projects. My passion lies in financial analysis, investment strategies, and improving team efficiencies through innovative solutions.
             </p>
         </div>
-    </section>
-    <section id="education">
-        <div class="container">
-            <h2>Education</h2>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container hover-reveal">
+        <h2>Education</h2>
+        <div class="content">
             <div class="education-item">
                 <h3>Indian Institute of Management Rohtak</h3>
                 <p><strong>Bachelor of Business Administration</strong> (2024) - 76.53%</p>
@@ -112,10 +122,13 @@
                 <p><strong>10th Grade</strong> (2018) - 77.33%</p>
             </div>
         </div>
-    </section>
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container hover-reveal">
+        <h2>Experience</h2>
+        <div class="content">
             <div class="experience-item">
                 <h3>Sanguine Capital Financial Services</h3>
                 <p><strong>Equity Advisor Intern (Apr 2024 - May 2024)</strong></p>
@@ -159,20 +172,26 @@
                 </ul>
             </div>
         </div>
-    </section>
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
+    </div>
+</section>
+
+<section id="projects">
+    <div class="container hover-reveal">
+        <h2>Projects</h2>
+        <div class="content">
             <p><strong>Investment Analysis and Portfolio Management</strong></p>
             <ul>
                 <li>Constructed a diversified fund with a 37.60% annual expected return and 0.48 Beta comprising Indian market-traded stocks, Copper, and Treasury Bills.</li>
                 <li>Executed rigorous risk-return analysis using tools like Sharpe’s ratio and Treynor ratio, optimized using Solver.</li>
             </ul>
         </div>
-    </section>
-    <section id="achievements">
-        <div class="container">
-            <h2>Achievements</h2>
+    </div>
+</section>
+
+<section id="achievements">
+    <div class="container hover-reveal">
+        <h2>Achievements</h2>
+        <div class="content">
             <div class="achievement-item">
                 <p><strong>National Finalist (Top 7) in PROSPER Case Competition by UPSRLM, showcasing public policy recommendation praised by Government officials (1,063 Participants)</strong></p>
                 <p>2024</p>
@@ -202,10 +221,13 @@
                 <p>2020</p>
             </div>
         </div>
-    </section>
-    <section id="certificates">
-        <div class="container">
-            <h2>Certificates</h2>
+    </div>
+</section>
+
+<section id="certificates">
+    <div class="container hover-reveal">
+        <h2>Certificates</h2>
+        <div class="content">
             <div class="certificate-item">
                 <p><strong>National Institute of Securities Markets VIII – Equity Derivatives Certification</strong></p>
                 <p>2024</p>
@@ -227,15 +249,19 @@
                 <p>2022</p>
             </div>
         </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container hover-reveal">
+        <h2>Contact</h2>
+        <div class="content">
             <p>Email: <a href="mailto:unesshamsi@gmail.com">unesshamsi@gmail.com</a></p>
             <p>Phone: Available Upon Request</p>
             <p>LinkedIn: <a href="https://linkedin.com/in/mohdunesshamsi" target="_blank">Mohd. Unes Shamsi</a></p>
         </div>
-    </section>
+    </div>
+</section>
     <footer>
         <p>&copy; 2025 Mohd. Unes Shamsi. All rights reserved.</p>
     </footer>
